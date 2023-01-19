@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic HTML</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <h1>This is Easy</h1>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Sign Up</a></li>
-    </ul>
+    <header>
+        <h1>This is Easy</h1>
+        <nav>
+            <ul>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>About</a></li>
+                <li><a href='#'>Blog</a></li>
+                <li><a href='#'>Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <header>
+            <h1>Best Article On The Net</h1>
+            <p>By Ray De La Nuez. Published January 3rd</p>
+        </header>
+
+        <aside class='advert'>
+            <img src='https://flashbak.com/wp-content/uploads/2015/09/slinky1.jpg' height="300px" width="400px"/>
+          </aside>
+
+        <p>This is an example web page explaining HTML5 semantic markup.</p>
+        <footer>
+            <p>This fake article was written by somebody at InternetingIsHard.com,
+                which is a pretty decent place to learn how to become a web developer. This
+                footer is only for the containing <code>&lt;article&gt;</code> element.</p>
+        </footer>
+
+    </article>
+
+    <article>
+        <header>
+            <h1>Another Post</h1>
+        </header>
+        <p>Some content</p>
+
+    </article>
+
+    <footer>
+        <p>&copy; 2022 RayDeLaNuez.com</p>
+    </footer>
+
 </body>
+
 </html>
