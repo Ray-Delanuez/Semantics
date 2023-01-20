@@ -1,19 +1,50 @@
 h1, h2, p {
     text-align: center;
+    color: rgb(1, 17, 17);
+    padding: auto;
 }
 body{
-   background-image: url(https://cdn3.vectorstock.com/i/1000x1000/85/07/soft-blue-glowing-background-vector-15648507.jpg)
-}
-.menu{
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
+   background-image: url(https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=2000);
+
 }
 
-.flavor{
-    text-align: left;
+.contain{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
-.price{
-    text-align: right;
+
+.advert{
+    float: left;
+    padding: 5px;
+}
+
+.top{
+    display: inline;
+    background-color: rgb(161, 172, 172);
+    padding: 10px;
+    padding-inline: 10%;
+}
+
+.topbar{
+    position: relative;
+}
+
+.sidebar{
+    float: right;
+    background-color: rgba(240, 243, 247, 0.911);
+    padding: 5%;
+}
+
+.post{
+    float: left;
+    background-color: rgb(91, 125, 158);
+    padding: 20px;
+}
+
+.sidebox{
+    background-color: rgb(221, 199, 172);
+    display: block;
+    padding: auto;
+    margin: 0;
 }
